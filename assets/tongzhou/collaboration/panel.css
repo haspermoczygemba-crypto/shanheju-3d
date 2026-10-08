@@ -1,0 +1,42 @@
+.collaboration-strip{flex-shrink:0;margin:0 24px;border-bottom:1px solid var(--line);min-height:38px}
+#app.collaboration-active{grid-template-columns:222px minmax(0,1fr);grid-template-rows:minmax(0,1fr)}
+#app.collaboration-active>.right-rail{display:none}
+#app.collaboration-active>.sidebar{min-height:0;overflow-y:auto}
+.collaboration-open{display:flex;align-items:center;width:100%;gap:9px;padding:9px 0;text-align:left;font-size:11px;min-height:38px}
+.collaboration-open img{width:15px;height:15px;flex-shrink:0}
+.collaboration-open b{font-weight:600;white-space:nowrap;color:var(--accent)}
+.collaboration-open span{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;min-width:0;color:#596975;flex:1}
+.collaboration-open small{font-size:10px;color:#596975;white-space:nowrap}
+.view.collaboration-view{padding:20px 24px;display:flex;flex-direction:column;min-height:0;overflow:hidden}
+.collaboration-toolbar{display:flex;align-items:center;gap:12px;padding-bottom:16px;flex-shrink:0}
+.collaboration-toolbar>div{flex:1;min-width:0}
+.collaboration-toolbar h3{font-size:15px;margin:0 0 5px}
+.collaboration-toolbar p{margin:0;color:#596975;font-size:11px;overflow-wrap:anywhere}
+.collaboration-command{width:36px;height:36px;display:inline-flex;align-items:center;justify-content:center;border:1px solid var(--line);border-radius:6px;flex:0 0 36px;background:white}
+.collaboration-command img{width:16px;height:16px}
+.collaboration-layout{display:grid;grid-template-columns:minmax(200px,30%) minmax(0,1fr);min-height:0;flex:1;border-top:1px solid var(--line)}
+.collaboration-navigation{min-height:0;overflow:auto;border-right:1px solid var(--line);padding:12px 12px 12px 0}
+.collaboration-navigation>.secondary{margin-top:12px;min-height:36px}
+.collaboration-row{width:100%;display:flex;flex-direction:column;align-items:start;gap:6px;text-align:left;padding:12px 10px;border-bottom:1px solid var(--line);min-width:0;border-radius:0}
+.collaboration-row.selected{background:var(--soft)}
+.collaboration-row b{font-size:12px;font-weight:500;overflow-wrap:anywhere}
+.collaboration-row span,.collaboration-row small{font-size:11px;color:#596975}
+.collaboration-inspector{min-width:0;min-height:0;overflow:auto;padding:18px 20px}
+.collaboration-inspector h4{font-size:14px;margin:0 0 8px;overflow-wrap:anywhere}
+.collaboration-task-status{font-size:11px;color:#596975;margin:0 0 16px;overflow-wrap:anywhere}
+.collaboration-tabs{display:flex;gap:2px;border-bottom:1px solid var(--line);margin-bottom:18px}
+.collaboration-tabs button{min-height:36px;padding:8px 14px;font-size:12px;border-bottom:2px solid transparent}
+.collaboration-tabs button[aria-pressed=true]{border-bottom-color:var(--accent);color:var(--accent);font-weight:600}
+.collaboration-content{font-size:12px;line-height:1.8;overflow-wrap:anywhere}
+.collaboration-actions{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 18px}
+.collaboration-actions button{min-height:34px}
+.collaboration-text{margin:0 0 24px}
+.collaboration-text h5{font-size:12px;margin:0 0 10px;color:#596975}
+.collaboration-text pre{font:12px/1.8 var(--font);white-space:pre-wrap;overflow-wrap:anywhere;margin:0;letter-spacing:0}
+.collaboration-id{font-size:10px;color:#596975}
+.collaboration-file{display:flex;flex-direction:column;gap:7px;width:100%;text-align:left;padding:12px 0;border-bottom:1px solid var(--line);overflow-wrap:anywhere}
+.collaboration-file b{font-size:12px;font-weight:500}
+.collaboration-file small{font-size:10px;color:#596975}
+.collaboration-open:focus-visible,.collaboration-command:focus-visible,.collaboration-row:focus-visible,.collaboration-tabs button:focus-visible,.collaboration-file:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+@media(max-width:1000px){.collaboration-layout{grid-template-columns:minmax(0,1fr)}.collaboration-navigation{max-height:180px;border-right:0;border-bottom:1px solid var(--line);padding:0 0 10px}.collaboration-inspector{padding:16px 0}.collaboration-list{display:flex;overflow:auto;gap:6px}.collaboration-row{flex:0 0 200px;max-width:200px}.collaboration-navigation>.secondary{margin-top:6px}.collaboration-strip{margin:0 18px}}
+@media(max-width:650px){.view.collaboration-view{padding:16px}.collaboration-open{gap:6px}.collaboration-toolbar{gap:8px}.collaboration-row{flex-basis:180px;max-width:180px}}

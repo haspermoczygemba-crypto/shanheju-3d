@@ -1,0 +1,13 @@
+City of Stars · 音频说明
+
+本离线包中的 `assets/city-of-stars.mp3` 是用户从本机桌面提供的 `City Of Stars (Humming)` 文件，未由项目从网络下载。请在把文件复制到其他电脑、U 盘或公开发布前确认该文件的来源和使用许可。
+
+Pi 已核实：从 iTunes Store、Amazon Digital Music 购买，或从合法购买的 CD/黑胶自用取得音频，通常只覆盖个人、非商业收听，不自动授权把录音发布到网站。
+
+如果不确定许可，请删除 `assets/city-of-stars.mp3`，再在网页里的“选择本机音频”中临时载入自己确认可以使用的文件。
+
+如果要把网站公开发布，需要分别核实：
+- 录音（master）：Interscope Records / UMG，https://www.umgsync.com/licensing-requests/
+- 词曲同步许可（sync）：Warner Chappell Music，wcsync@warnerchappell.com
+
+不要从盗版网站、视频转换器、网盘或绕过 DRM 的工具下载录音。

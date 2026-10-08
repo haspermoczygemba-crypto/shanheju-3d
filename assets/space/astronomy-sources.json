@@ -1,0 +1,35 @@
+{
+  "milky-way.jpg": {
+    "source": "https://www.eso.org/public/images/eso0932a/",
+    "creator": "ESO/S. Brunier",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "modification": "Resized from ESO large JPEG for browser delivery; visible credit retained in the star-field panel."
+  },
+  "andromeda.jpg": {
+    "source": "https://images.nasa.gov/details/PIA26276",
+    "creator": "NASA/JPL-Caltech",
+    "credit": "Courtesy NASA/JPL-Caltech.",
+    "usage_policy": "https://www.jpl.nasa.gov/jpl-image-use-policy/",
+    "modification": "Resized from NASA/JPL large image and used as a distant additive sprite."
+  },
+  "earth_clouds.jpg": {
+    "source": "https://commons.wikimedia.org/wiki/File:Solarsystemscope_texture_2k_earth_clouds.jpg",
+    "creator": "Solar System Scope",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "modification": "Mapped as a transparent cloud layer over the Earth."
+  },
+  "earth_night.jpg": {
+    "source": "https://commons.wikimedia.org/wiki/File:Solarsystemscope_texture_2k_earth_nightmap.jpg",
+    "creator": "Solar System Scope",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "modification": "Used in a shader for the night-side city-light layer."
+  },
+  "orbital-motion.js": {
+    "source": "https://github.com/cosinekitty/astronomy",
+    "license": "MIT",
+    "modification": "Browser-side package used for compressed exhibition-scale orbital motion."
+  }
+}

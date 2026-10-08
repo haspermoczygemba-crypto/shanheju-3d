@@ -1,0 +1,251 @@
+{
+  "providers": [
+    {
+      "id": "deepseek",
+      "name": "DeepSeek",
+      "base_url": "https://api.deepseek.com/v1",
+      "protocol": "chat_completions",
+      "models": [
+        "deepseek-flash",
+        "deepseek-v4-flash",
+        "deepseek-chat"
+      ],
+      "origin": "已有原生配置",
+      "key_configured": true,
+      "anthropic_compatible": true,
+      "model_capabilities": {
+        "deepseek-v4-flash": {
+          "name": "DeepSeek-V4.1-Flash (legacy name)",
+          "reasoning": true,
+          "contextWindow": 1000000,
+          "maxTokens": 384000,
+          "input": [
+            "text",
+            "image"
+          ]
+        },
+        "deepseek-flash": {
+          "name": "DeepSeek-V4.1-Flash (legacy name)",
+          "reasoning": true,
+          "contextWindow": 1000000,
+          "maxTokens": 384000,
+          "input": [
+            "text",
+            "image"
+          ]
+        }
+      }
+    },
+    {
+      "id": "gpt-relay",
+      "name": "GPT Relay",
+      "base_url": "https://api340.com/v1",
+      "protocol": "codex_responses",
+      "models": [
+        "gpt-6-sol",
+        "gpt-6.1-sol",
+        "gpt-6-luna",
+        "gpt-6-astra",
+        "gpt-6",
+        "gpt-5.6-sol",
+        "gpt-5.6-terra",
+        "gpt-5.6-luna",
+        "gpt-5.6",
+        "gpt-5.5",
+        "codex-auto-review"
+      ],
+      "origin": "已有原生配置",
+      "key_configured": true,
+      "anthropic_compatible": false,
+      "model_capabilities": {
+        "gpt-6-sol": {
+          "name": "GPT-6 Sol",
+          "reasoning": true,
+          "contextWindow": 1050000,
+          "maxTokens": 128000,
+          "input": [
+            "text",
+            "image"
+          ]
+        },
+        "gpt-6-astra": {
+          "name": "GPT-6 Astra",
+          "reasoning": true,
+          "contextWindow": 1050000,
+          "maxTokens": 128000,
+          "input": [
+            "text",
+            "image"
+          ]
+        },
+        "gpt-6": {
+          "name": "GPT-6",
+          "reasoning": true,
+          "contextWindow": 1050000,
+          "maxTokens": 128000,
+          "input": [
+            "text",
+            "image"
+          ]
+        },
+        "gpt-6.1-sol": {
+          "name": "GPT-6.1 Sol",
+          "reasoning": true,
+          "contextWindow": 1050000,
+          "maxTokens": 128000,
+          "input": [
+            "text",
+            "image"
+          ]
+        },
+        "gpt-6-luna": {
+          "name": "GPT-6 Luna",
+          "reasoning": true,
+          "contextWindow": 1050000,
+          "maxTokens": 128000,
+          "input": [
+            "text",
+            "image"
+          ]
+        },
+        "gpt-5.6-sol": {
+          "name": "GPT-5.6 Sol",
+          "reasoning": true,
+          "contextWindow": 1050000,
+          "maxTokens": 128000,
+          "input": [
+            "text",
+            "image"
+          ]
+        },
+        "gpt-5.6-terra": {
+          "name": "GPT-5.6 Terra",
+          "reasoning": true,
+          "contextWindow": 1050000,
+          "maxTokens": 128000,
+          "input": [
+            "text",
+            "image"
+          ]
+        },
+        "gpt-5.6-luna": {
+          "name": "GPT-5.6 Luna",
+          "reasoning": true,
+          "contextWindow": 1050000,
+          "maxTokens": 128000,
+          "input": [
+            "text",
+            "image"
+          ]
+        },
+        "gpt-5.6": {
+          "name": "GPT-5.6",
+          "reasoning": true,
+          "contextWindow": 1050000,
+          "maxTokens": 128000,
+          "input": [
+            "text",
+            "image"
+          ]
+        },
+        "gpt-5.5": {
+          "name": "GPT-5.5",
+          "reasoning": true,
+          "contextWindow": 1050000,
+          "maxTokens": 128000,
+          "input": [
+            "text",
+            "image"
+          ]
+        },
+        "codex-auto-review": {
+          "name": "Codex Auto Review",
+          "reasoning": true,
+          "contextWindow": 1050000,
+          "maxTokens": 128000,
+          "input": [
+            "text",
+            "image"
+          ]
+        },
+        "gpt-image-2": {
+          "name": "GPT Image 2 (图像模型)",
+          "reasoning": false,
+          "contextWindow": 32000,
+          "maxTokens": 8000,
+          "input": [
+            "text",
+            "image"
+          ]
+        },
+        "gpt-image-2.5-flare": {
+          "name": "GPT Image 2.5 Flare (图像模型)",
+          "reasoning": false,
+          "contextWindow": 32000,
+          "maxTokens": 8000,
+          "input": [
+            "text",
+            "image"
+          ]
+        },
+        "gpt-image-2.5-sunburst": {
+          "name": "GPT Image 2.5 Sunburst (图像模型)",
+          "reasoning": false,
+          "contextWindow": 32000,
+          "maxTokens": 8000,
+          "input": [
+            "text",
+            "image"
+          ]
+        }
+      }
+    }
+  ],
+  "default": {
+    "provider": "deepseek",
+    "model": "deepseek-flash",
+    "thinking": "medium"
+  },
+  "overrides": {
+    "hermes": null,
+    "pi": null,
+    "codex": {
+      "provider": "gpt-relay",
+      "model": "gpt-6.1-sol"
+    },
+    "claude": {
+      "provider": "deepseek",
+      "model": "deepseek-chat"
+    }
+  },
+  "effective": {
+    "hermes": {
+      "id": "deepseek",
+      "name": "DeepSeek",
+      "model": "deepseek-flash",
+      "protocol": "chat_completions",
+      "source": "common_default"
+    },
+    "codex": {
+      "id": "gpt-relay",
+      "name": "GPT Relay",
+      "model": "gpt-6.1-sol",
+      "protocol": "codex_responses",
+      "source": "agent_override"
+    },
+    "pi": {
+      "id": "deepseek",
+      "name": "DeepSeek",
+      "model": "deepseek-flash",
+      "protocol": "chat_completions",
+      "source": "common_default"
+    },
+    "claude": {
+      "id": "deepseek",
+      "name": "DeepSeek",
+      "model": "deepseek-chat",
+      "protocol": "chat_completions",
+      "source": "agent_override"
+    }
+  }
+}

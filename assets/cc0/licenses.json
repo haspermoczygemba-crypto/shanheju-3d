@@ -1,0 +1,50 @@
+[
+  {
+    "type": "model",
+    "resolution": "1k",
+    "license": "CC0-1.0",
+    "source": "https://polyhaven.com/a/chinese_cabinet",
+    "id": "chinese_cabinet",
+    "modified": "Scaled and placed in the room"
+  },
+  {
+    "type": "model",
+    "resolution": "1k",
+    "license": "CC0-1.0",
+    "source": "https://polyhaven.com/a/chinese_armchair",
+    "id": "chinese_armchair",
+    "modified": "Scaled and placed in the room"
+  },
+  {
+    "type": "model",
+    "resolution": "1k",
+    "license": "CC0-1.0",
+    "source": "https://polyhaven.com/a/desk_lamp_arm_01",
+    "id": "desk_lamp_arm_01",
+    "modified": "Scaled and placed in the room"
+  },
+  {
+    "type": "PBR texture",
+    "resolution": "1k",
+    "license": "CC0-1.0",
+    "source": "https://polyhaven.com/a/wood_floor",
+    "id": "wood_floor",
+    "modified": "Repeat and color tint"
+  },
+  {
+    "type": "PBR texture",
+    "resolution": "1k",
+    "license": "CC0-1.0",
+    "source": "https://polyhaven.com/a/plastered_wall",
+    "id": "plastered_wall",
+    "modified": "Repeat and color tint"
+  },
+  {
+    "type": "PBR texture",
+    "resolution": "1k",
+    "license": "CC0-1.0",
+    "source": "https://polyhaven.com/a/fabric_pattern_07",
+    "id": "fabric_pattern_07",
+    "modified": "Repeat and color tint"
+  }
+]

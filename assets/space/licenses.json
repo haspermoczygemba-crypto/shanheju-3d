@@ -1,0 +1,16 @@
+{
+  "creator": "Solar System Scope",
+  "source": "https://www.solarsystemscope.com/textures/",
+  "license": "CC-BY-4.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0/",
+  "license_checked": "2026-10-07",
+  "license_evidence": "https://r.jina.ai/https://www.solarsystemscope.com/textures/",
+  "modifications": "Mapped to Three.js spheres; scene lighting and animated rotation. Saturn rings are authored procedurally.",
+  "downloads": {
+    "moon.jpg": "https://upload.wikimedia.org/wikipedia/commons/2/26/Solarsystemscope_texture_2k_moon.jpg",
+    "earth_daymap.jpg": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Solarsystemscope_texture_2k_earth_daymap.jpg",
+    "mars.jpg": "https://upload.wikimedia.org/wikipedia/commons/4/46/Solarsystemscope_texture_2k_mars.jpg",
+    "jupiter.jpg": "https://upload.wikimedia.org/wikipedia/commons/b/be/Solarsystemscope_texture_2k_jupiter.jpg",
+    "saturn.jpg": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Solarsystemscope_texture_2k_saturn.jpg"
+  }
+}
